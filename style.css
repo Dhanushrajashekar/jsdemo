@@ -1,3 +1,12 @@
+body {
+    
+    background-image: url('https://img.lovepik.com/photo/40015/5932.jpg_wh300.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+}
+
+
 .header{
     padding: 15px;
     text-align: center;
@@ -18,9 +27,10 @@
 nav {
     width: 20%;
     background-color: orange;
-    padding: 15px;
+    padding: 9px;
+    padding-bottom: 25%;
     box-sizing: border-box;
-    border-radius: 15%;
+    border-radius: 9%;
 }
 
 nav a {
