@@ -1,28 +1,47 @@
 body {
-    
-    background-image: url('https://img.lovepik.com/photo/40015/5932.jpg_wh300.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
-    background-size: cover; /* Ensure the image covers the entire background */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-position: center; /* Center the image */
+    background-image: url('https://img.lovepik.com/photo/40015/5932.jpg_wh300.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-
-
-.header{
-    padding: 15px;
+.header {
+    height: 103px;
+    padding: 5px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    margin: 0;
     text-align: center;
     background: plum;
     font-size: bolder;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
 }
 
-#headerinfo{
+.logo img {
+    height: 110px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.header-content {
+    flex: 1;
+}
+
+h1 {
+    margin: 0.5%;
+}
+
+#headerinfo {
     color: black;
     padding-top: 10px;
-    padding-bottom: 10px ;
+    padding-bottom: 10px;
     font-size: large;
     font-weight: bolder;
     background-color: yellow;
     opacity: 0.6;
+    border-radius: 15px;
 }
 
 nav {
@@ -47,4 +66,3 @@ nav a {
 nav a:hover {
     background-color: #ddd;
 }
-
