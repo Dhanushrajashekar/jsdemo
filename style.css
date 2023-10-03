@@ -16,8 +16,9 @@ body {
     padding-left: 1px;
     margin: 0;
     text-align: center;
-    background: plum;
+    background: #7C9D96;
     font-size: bolder;
+    font: small-caps bold 24px/1 sans-serif; ;
     display: flex;
     border-radius: 15px;
     align-items: center;
@@ -30,6 +31,7 @@ body {
 }
 
 .header-content {
+    color:#FFD966;
     flex: 1;
 }
 
@@ -43,14 +45,14 @@ h1 {
     padding-bottom: 10px;
     font-size: large;
     font-weight: bolder;
-    background-color: yellow;
+    background-color: #ECA869;
     opacity: 0.6;
     border-radius: 15px;
 }
 
 nav {
     width: 20%;
-    background-color: orange;
+    background-color: #F6E6C2;
     padding: 9px;
     padding-bottom: 25%;
     box-sizing: border-box;
@@ -87,11 +89,11 @@ nav a:hover {
     background-color: yellow;
 }
 #loginbtn {
-    background-color: lightcoral;
+    background-color: #B6E2A1;
     text-align: right;
 }
 #signupbtn {
-    background-color: lightgreen;
+    background-color: #FCF9BE;
 }
 
 /* Add this to your existing CSS file */
