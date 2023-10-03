@@ -66,3 +66,26 @@ nav a {
 nav a:hover {
     background-color: #ddd;
 }
+
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#homebtn {
+    background-color: #2ecc71;
+}
+
+#dishbtn {
+    background-color: yellow;
+}
+#loginbtn {
+    background-color: lightcoral;
+    text-align: right;
+}
+#signupbtn {
+    background-color: lightgreen;
+}
