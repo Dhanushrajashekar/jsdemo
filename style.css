@@ -134,3 +134,15 @@ nav a:hover {
     display: block;
 }
 
+
+.footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: #7C9D96;
+ color: white;
+ text-align: center;
+ font-size: 15px;
+}
+    

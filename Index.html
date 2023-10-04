@@ -37,5 +37,16 @@
         <a href="example.com">Phone Number</a>
         <a href="example.com">Comments</a>
     </nav>
+
+    <div id="footer-container"></div>
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            });
+    </script>
 </body>
 </html>
+
+
