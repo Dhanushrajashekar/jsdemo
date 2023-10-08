@@ -14,12 +14,13 @@
         <div class="header-content">
             <h1>Recipes Book</h1> 
             
-            <button type="button" class ="button" id ="homebtn">Home</button>
+            
             <div class="dropdown">
+               
                 <button type="button" class="button" id="dishbtn">Dishes</button>
                 <div class="dropdown-content">
-                    <a href="#">Veg</a>
-                    <a href="#">Non-Veg</a>
+                    <a href="Veg.html">Veg</a>
+                    <a href="Non_veg.html">Non-Veg</a>
                 </div>
             </div>
           
@@ -36,5 +37,16 @@
         <a href="example.com">Phone Number</a>
         <a href="example.com">Comments</a>
     </nav>
+
+    <div id="footer-container"></div>
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            });
+    </script>
 </body>
 </html>
+
+
