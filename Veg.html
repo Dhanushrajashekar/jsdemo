@@ -30,7 +30,14 @@
     </div>
     <h1 class="RecipesBook"></h1>
     <marquee behavior="scroll" direction="right" id="headerinfo"> I am building this website to save my cooking Recipes </marquee>
-
+    <div id="footer-container"></div>
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            });
+    </script>
     
 </body>
 </html>
